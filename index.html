@@ -4,11 +4,17 @@
         <meta charset = "UTF-8">
         <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <link rel = "stylesheet" href = "style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;200;400;700&display=swap"
+      rel="stylesheet"/>
+        <link rel = "stylesheet" href = "assets/style.css">
         <title>Weather Dashboard</title>
     </head>
     <body>
         <div class="container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Enter a state">
+                <button id="search-button">Search</button>
+              </div>
             <div class = "current-info">
                 <div class = "date-container">
                     <div class="time" id = "time">
@@ -32,6 +38,67 @@
                             <p>92.5%</p>
                         </div>
                     </div>
+                </div>
+                
+                <div class = "place-container">
+                    <div class="time-zone" id = "time-zone">United States</div>
+                    <div id = "country" class="country">United States</div>
+                </div>
+            </div>
+        </div>
+       
+        <div class = "future-forecast">
+            <div class = "today" id = "current-temp">
+                <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                <div class = "day">Monday</div>
+                <div class = "temp">Day</div>
+            </div>
+
+            <div class = "weather-forecast" id = "weather-forecast">
+                <div class = "weather-forecast-item">
+                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <div class = "day">Tuesday</div>
+                    <div class = "temp">Day</div>
+                </div>
+            </div>
+
+            <div class = "weather-forecast" id = "weather-forecast">
+                <div class = "weather-forecast-item">
+                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <div class = "day">Wednesday</div>
+                    <div class = "temp">Day</div>
+                </div>
+            </div>
+
+            <div class = "weather-forecast" id = "weather-forecast">
+                <div class = "weather-forecast-item">
+                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <div class = "day">Thursday</div>
+                    <div class = "temp">Day</div>
+                </div>
+            </div>
+
+            <div class = "weather-forecast" id = "weather-forecast">
+                <div class = "weather-forecast-item">
+                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <div class = "day">Friday</div>
+                    <div class = "temp">Day</div>
+                </div>
+            </div>
+
+            <div class = "weather-forecast" id = "weather-forecast">
+                <div class = "weather-forecast-item">
+                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <div class = "day">Saturday</div>
+                    <div class = "temp">Day</div>
+                </div>
+            </div>
+
+            <div class = "weather-forecast" id = "weather-forecast">
+                <div class = "weather-forecast-item">
+                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <div class = "day">Sunday</div>
+                    <div class = "temp">Day</div>
                 </div>
             </div>
         </div>
