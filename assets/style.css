@@ -17,8 +17,7 @@ body {
   }
   .container .search-bar{
     padding: 5px 15px;
-    background:rgba(7, 68, 25, 0.554);
-    border: solid 1px white;
+    background:rgba(15, 131, 50, 0.554);
     border-radius: 50px;
     text-align: center;
     margin: 10px 0;
@@ -29,7 +28,7 @@ body {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    background-color: rgba(144, 171, 103, 0.469);
+    background-color: rgba(82, 98, 58, 0.469);
   }
   .search-bar input[type="text"]::placeholder {
     color: rgb(252, 250, 250); 
@@ -41,7 +40,7 @@ body {
   }
   .search-bar button{
     padding: 10px 20px;
-    background-color: #0619066a; 
+    background-color: #0903076a; 
     color: white; 
     border: none;
     border-radius: 20px;
@@ -58,20 +57,16 @@ body {
   .date-container{
     font-weight: 100;
   }
-  .date-container .time{
-    font-size: 70px;
-  }
-  .date-container #am-pm{
+  
+  .date-container {
     font-size: 30px;
     margin-left: 20px;
   }
-  .date-container .date{
-    font-size:30px;
-  }
+  
   .place-container {
     text-align:end;
   }
-  .place-container .time-zone{
+  .place-container .city-name{
     font-size:30px;
     font-weight: 100;
   }
@@ -82,11 +77,11 @@ body {
   .current-info .others{
     display: flex;
     flex-direction: column;
-    background: rgba(11, 93, 12, 0.586);
+    background: rgba(90, 127, 90, 0.586);
     padding : 19px;
     border-radius: 10px;
     margin: 10px 0;
-    border: 1px solid white;
+    border: .5px solid white;
   }
   .current-info .others .weather-item{
     display:flex;
@@ -98,23 +93,50 @@ body {
     bottom: 0;
     position:fixed;
     color:rgb(253, 249, 249);
-    font-size: 25px;
+    font-size: 20px;
     display:flex;
-    width:100%;
-    align-items:center;
-    justify-content:center;
-  }
-  .future-forecast .today{
-    display:flex;
+    width:90%;
+    justify-content:space-between;
     align-items: center;
-    justify-content: center;
   }
+ 
 .future-forecast .today .day{
   padding: 5px 15px;
-  background:rgba(55, 65, 58, 0.554);
+  background:rgba(24, 33, 27, 0.554);
+  border-radius: 50px;
+  text-align: center;
+}
+.weather-forecast .weather-forecast-item .day{
+  padding: 5px 15px;
+  background:rgba(58, 79, 65, 0.554);
   border-radius: 50px;
   text-align: center;
 }
 .future-forecast .weather-forecast{
   display: flex;
+}
+.search-history{
+  font-size: 15px;
+  margin-top: -190px;
+  margin-left: 500px;
+  background:rgba(58, 79, 65, 0.554);
+  border-radius: 70px;
+  width:400px;
+  height:200px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+.search-item {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-history h2{
+  margin-top: 20px;
+  text-align: center;
 }

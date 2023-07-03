@@ -12,16 +12,13 @@
     <body>
         <div class="container">
             <div class="search-bar">
-                <input type="text" id="search-input" placeholder="Enter a state">
+                <input type="text" id="search-input" placeholder="Enter a City">
                 <button id="search-button">Search</button>
+                <button id="history-button" class = "btn">View your history</button>
               </div>
             <div class = "current-info">
                 <div class = "date-container">
-                    <div class="time" id = "time">
-                        10:55 <span id = "am-pm">PM</span>
-                    </div>
-                    <div class = "date" id="date">
-                        Monday, 26 June
+                    <div class="date" id = "date">
                     </div>
 
                     <div class = "others" id = "current-weather-items">
@@ -41,62 +38,65 @@
                 </div>
                 
                 <div class = "place-container">
-                    <div class="time-zone" id = "time-zone">United States</div>
+                    <div class="city-name" id="city-name"></div>
+
                     <div id = "country" class="country">United States</div>
                 </div>
             </div>
+            <div id = "search-history" class = "search-history">
+                <h2>Your Search History</h2>
         </div>
        
-        <div class = "future-forecast">
-            <div class = "today" id = "current-temp">
-                <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
-                <div class = "day">Monday</div>
-                <div class = "temp">Day</div>
+        <div class = "future-forecast" id = "forecast-container">
+            <div class="weather-forecast-item">
+                <img src="" alt="weather icon" class="w-icon" id="weather-icon1">
+                <div class="day">Monday</div>
+                <div class="temp">Day</div>
             </div>
 
-            <div class = "weather-forecast" id = "weather-forecast">
+            <div class = "weather-forecast" >
                 <div class = "weather-forecast-item">
-                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <img src="" alt="weather icon" class="w-icon" id="weather-icon2">
                     <div class = "day">Tuesday</div>
                     <div class = "temp">Day</div>
                 </div>
             </div>
 
-            <div class = "weather-forecast" id = "weather-forecast">
+            <div class = "weather-forecast" >
                 <div class = "weather-forecast-item">
-                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <img src="" alt="weather icon" class="w-icon" id="weather-icon3">
                     <div class = "day">Wednesday</div>
                     <div class = "temp">Day</div>
                 </div>
             </div>
 
-            <div class = "weather-forecast" id = "weather-forecast">
+            <div class = "weather-forecast">
                 <div class = "weather-forecast-item">
-                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <img src="" alt="weather icon" class="w-icon" id="weather-icon4">
                     <div class = "day">Thursday</div>
                     <div class = "temp">Day</div>
                 </div>
             </div>
 
-            <div class = "weather-forecast" id = "weather-forecast">
+            <div class = "weather-forecast" >
                 <div class = "weather-forecast-item">
-                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <img src="" alt="weather icon" class="w-icon" id="weather-icon5">
                     <div class = "day">Friday</div>
                     <div class = "temp">Day</div>
                 </div>
             </div>
 
-            <div class = "weather-forecast" id = "weather-forecast">
+            <div class = "weather-forecast" >
                 <div class = "weather-forecast-item">
-                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <img src="" alt="weather icon" class="w-icon" id="weather-icon6">
                     <div class = "day">Saturday</div>
                     <div class = "temp">Day</div>
                 </div>
             </div>
 
-            <div class = "weather-forecast" id = "weather-forecast">
+            <div class = "weather-forecast">
                 <div class = "weather-forecast-item">
-                    <img src = "https://openweathermap.org/img/wn/10d@2x.png" alt = "weather icon" class = "w-icon">
+                    <img src="" alt="weather icon" class="w-icon" id="weather-icon7">
                     <div class = "day">Sunday</div>
                     <div class = "temp">Day</div>
                 </div>
