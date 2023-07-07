@@ -7,7 +7,7 @@ This is a Weather Dashboard application, using the Open Weather Map Api, html, C
 This application utilizes the Open Weather Map Api for updated weather forecasts. The user can easily run the application and see the current weather and future five days weather for Charlotte as the landing page. The user can search a specific city in the search bar, which will then update the current weather and future forecast for that city. If the user would like to see their search history, they can click the View History button, which will show their recently searched cities. The user can click on each city in their search history, which will refresh the forecasts to that corresponding city.
 
 ## Links
-Deployed Application : ...
+Deployed Application : https://destinymarie32601.github.io/weather-dashboard/
 
 Github : https://github.com/destinymarie32601/weather-dashboard
 
